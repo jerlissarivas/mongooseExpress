@@ -3,6 +3,8 @@ const app = express();
 const path = require('path');
 const mongoose = require('mongoose');
 
+const Product = require('./models/product')
+
 
 mongoose
   .connect('mongodb://localhost/mongooseExpress', {
